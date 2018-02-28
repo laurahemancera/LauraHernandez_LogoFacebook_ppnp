@@ -1,0 +1,37 @@
+*{
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  html, body{
+      height: 100%;
+      max-width: 100%;
+      
+  }
+  .flex-container {
+  display: flex;
+  height: 100%;
+  }
+  .container{
+      margin: auto;
+      position: relative;
+  }
+  
+  .base_logo{
+      border:200px solid royalblue;
+      width: 100px;
+      height: 100px;
+      background: royalblue;
+      box-shadow: 10px 10px 10px rgba(0,0,0,.25);    
+      border-radius: 15%;
+  }
+  
+  
+  .base__letter {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    color:white;
+    font-family: "arial";
+    font-size: 500px;
+  }
